@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/HomePageMenuHomeIcon"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_page_home_icon"/>
+    <item
+        android:id="@+id/HomePageMenuWorkoutIcon"
+        android:title="@string/workout"
+        android:icon="@drawable/ic_home_page_workout_icon"/>
+    <item
+        android:id="@+id/HomePageMenuHealthIcon"
+        android:title="@string/health"
+        android:icon="@drawable/ic_home_page_health_icon"/>
+    <item
+        android:id="@+id/HomePageUserIcon"
+        android:title="@string/user"
+        android:icon="@drawable/ic_home_page_user_icon"/>
+</menu>

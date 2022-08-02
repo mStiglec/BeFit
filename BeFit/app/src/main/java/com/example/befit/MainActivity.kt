@@ -16,18 +16,10 @@ import androidx.compose.ui.unit.sp
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
     }
 
-    @Composable
-    fun ShowName(name: String){
-        Text(text = "Hello $name")
-    }
 
-    @Composable
-    @Preview
-    fun PreviewMyName(){
-        ShowName("Miky")
-    }
 
 
 }
